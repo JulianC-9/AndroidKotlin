@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F0F4F8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Evaluador de numeros!"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="263298"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:id="@+id/numberInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduce un número"
+        android:inputType="numberSigned|numberDecimal"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/ic_launcher_foreground"
+        android:textColor="#246521"
+        android:textColorHint="#651423"
+        android:textSize="18sp"
+        android:maxLines="1"/>
+
+    <Button
+        android:id="@+id/evaluateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Evaluar"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:background="@drawable/ic_launcher_foreground"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        android:elevation="8dp"
+        android:stateListAnimator="@null"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado aparecerá aquí"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#7F8C8D"
+        android:padding="10dp"
+        android:textAlignment="center"/>
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
