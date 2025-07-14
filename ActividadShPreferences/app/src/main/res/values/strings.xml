@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ActividadShPreferences</string>
+    <string name="string_visualizar">Hola [Nombre], este es tu peso </string>
+    <string name="string_ingresar">Ingresa Tu Peso</string>
+    <string name="hint1">Ingresa tu nombre</string>
+    <string name="hint2">Ingresa tu peso en Lb</string>
+    <string name="hint3">Ingresa tu altura en M</string>
+    <string name="btn1">resultados</string>
+
+
+</resources>
